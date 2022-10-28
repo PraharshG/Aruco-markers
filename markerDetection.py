@@ -5,7 +5,7 @@ marker_dict = aruco.Dictionary_get(aruco.DICT_4X4_100)
 
 param_markers = aruco.DetectorParameters_create()
 
-cap = cv.VideoCapture('/home/percy/Downloads/markers.mov')
+cap = cv.VideoCapture('markers.mov')
 
 while True:
 	ret,frame = cap.read()
