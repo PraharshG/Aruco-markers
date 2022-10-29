@@ -3,7 +3,7 @@ import numpy as np
 import cv2 as cv
 from cv2 import aruco
 
-calib_data_path = "/Users/praharshgurudatta/Desktop/calib_data/MultiMatrix.npz"#calibration data path
+calib_data_path = "MultiMatrix.npz"#calibration data path
 calib_data = np.load(calib_data_path)#file path
 
 cam_mat = calib_data['camMatrix']
