@@ -24,7 +24,7 @@ The file `MultiMatrix.npz` contains the camera calibration data:
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/PraharshG/aruco-detection.git
+   git clone https://github.com/PraharshG/Aruco-markers.git
    cd aruco-detection
    ```
 2. Install the required Python packages:
